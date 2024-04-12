@@ -153,10 +153,10 @@ const navegacion = useNavigate();
             })}
           >
             <option value="">Seleccione una opcion</option>
-            <option value="Infusiones">Infusiones</option>
-            <option value="Batidos">Batidos</option>
-            <option value="Dulce">Dulce</option>
-            <option value="Salado">Salado</option>
+            <option value="1">1</option>
+            <option value="1s">1</option>
+            <option value="1">1</option>
+            <option value="1">1</option>
           </Form.Select>
           <Form.Text className="text-danger">
             {errors.categoria?.message}
